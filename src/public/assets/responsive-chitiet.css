@@ -1,0 +1,58 @@
+@media (max-width: 1024px) {
+  .detail-product .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .detail-product .container .selectBuy .nameProduct h4 {
+    font-size: 1.5rem;
+  }
+  .detail-product .container .selectBuy .colorProduct {
+    width: 100%;
+  }
+  .detail-product .container .selectBuy .colorProduct .img-color {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .detail-product .container .selectBuy .selectOption {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .detail-product .container .selectBuy .selectOption .quantity {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .detail-product .container .selectBuy .button-handle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .detail-product .container .selectBuy .button-handle .button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .detail-product .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .detail-product .container .img-product {
+    width: 100%;
+  }
+  .detail-product .container .selectBuy {
+    width: 100%;
+  }
+  .detail-product .container .selectBuy .colorProduct .img-color .img-item {
+    width: 80px;
+    height: 85px;
+  }
+}
+/*# sourceMappingURL=responsive-chitiet.css.map */

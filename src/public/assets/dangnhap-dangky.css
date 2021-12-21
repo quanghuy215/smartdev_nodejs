@@ -1,0 +1,95 @@
+header {
+  background: url(https://theme.hstatic.net/1000245692/1000351967/14/hannah-morgan-39891.jpg);
+  padding: 3rem;
+}
+
+header h2.page__title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 350;
+}
+
+header p.page__link {
+  text-align: center;
+  color: #000;
+  font-weight: 300;
+}
+
+header p.page__link a {
+  color: #1abc9c;
+}
+
+.formLogin {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  max-width: 1200px;
+  padding: 0px 30px;
+  width: 100%;
+}
+
+.formLogin form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formLogin form input {
+  width: 100%;
+  padding: .5rem;
+  outline: none;
+  border: 1px solid #ddd;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.formLogin form .btn {
+  padding: .7rem 3rem;
+  border-radius: 0;
+  background: #78cccd;
+  letter-spacing: 2px;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.formLogin form .btn:hover {
+  background-color: #419192;
+}
+
+.formLogin form .form__divider {
+  width: 50%;
+  margin: 4rem auto;
+  border: 1px solid #ddd;
+}
+
+.formLogin form .form__link {
+  margin-bottom: .5rem;
+}
+
+.formLogin form .form__link a {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.formLogin form .form__link a:hover {
+  color: #1abc9c;
+}
+/*# sourceMappingURL=dangnhap-dangky.css.map */

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toto Shop</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fa/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./slick-1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./slick-1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./Jquery 3.5.1.min/jq-3.5.1.min.js"></script>
+    <script src="./js/local.js"></script>
+  </head>
+  <body >
+    <div class="opacity-body"></div>
+
+    <div class="menu-responsive">
+      <i class="fas fa-bars open-menu"></i>
+      <div class="logo">
+        <a href=""><img src="./images/logo.jpg" alt="" /></a>
+      </div>
+      <div class="list__icon">
+        <li class="item__icon">
+          <a href="" title="Tìm kiếm">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="item__icon">
+          <a href="">
+            <i class="far fa-heart"></i>
+          </a>
+        </li>
+        <li class="item__icon">
+          <a href="" title="Giỏ hàng">
+            <i class="fas fa-shopping-bag"></i>
+          </a>
+        </li>
+      </div>
+    </div>
+    <div class="left">
+      <div class="close-menu">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="logo">
+        <a href=""><img src="./images/logo.jpg" alt="" /></a>
+      </div>
+      <div class="list__icon">
+        <li class="item__icon">
+          <a href="/login">
+            <i class="far fa-user-circle"></i>
+          </a>
+        </li>
+        <li class="item__icon">
+          <a href="" title="Tìm kiếm">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="item__icon">
+          <a href="">
+            <i class="far fa-heart"></i>
+          </a>
+        </li>
+        <li class="item__icon">
+          <a href="" title="Giỏ hàng">
+            <i class="fas fa-shopping-bag"></i>
+          </a>
+        </li>
+      </div>
+      <div>
+        <a
+          href="/login"
+          style="text-decoration: none; color: black"
+          class="log-in"
+        >
+          Login</a
+        >
+      </div>
+      <ul class="list__menu">
+        <li class="menu__Item"><a href="">New Arrivals</a></li>
+        <li class="menu__Item"><a href="">ĐỒ NAM</a></li>
+        <li class="menu__Item"><a href="">ĐỒ NỮ</a></li>
+        <li class="menu__Item"><a href="">ĐỒ ĐÔI</a></li>
+        <li class="menu__Item"><a href="">ÁO KHOÁC</a></li>
+        <li class="menu__Item"><a href="">PHỤ KIỆN</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <div class="slider">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="./images/slide1.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./images/slide2.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./images/slide3.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner">
+        <div class="banner__item">
+          <a href="">
+            <img src="./images/bannehome1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="banner__item">
+          <a href="">
+            <img src="./images/bannerhome2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="banner__item">
+          <a href="">
+            <img src="./images/bannerhome3.jpg" alt="" />
+          </a>
+        </div>
+        <div class="banner__item">
+          <div class="item">
+            <a href=""><img src="./images/bannerhome4.jpg" alt="" /></a>
+          </div>
+          <div class="item">
+            <a href=""><img src="./images/bannerhome5.jpg" alt="" /></a>
+          </div>
+          <div class="item">
+            <a href=""><img src="./images/bannerhome6.jpg" alt="" /></a>
+          </div>
+          <div class="item">
+            <a href=""><img src="./images/bannerhome7.jpg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="newArrivals">
+        <div class="container">
+          <div class="title">
+            <h3><a href="">New Arrivals</a></h3>
+            <span><i class="far fa-circle"></i></span>
+          </div>
+          <div class="list__product" id="productList">
+            <!-- <div class="item__product">
+              <a href=""><img src="./images/product1.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div> -->
+            <!-- <div class="item__product">
+              <a href=""><img src="./images/product2.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div>
+            <div class="item__product">
+              <a href=""><img src="./images/product3.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div>
+            <div class="item__product">
+              <a href=""><img src="./images/product4.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div>
+            <div class="item__product">
+              <a href=""><img src="./images/product5.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div>
+            <div class="item__product">
+              <a href=""><img src="./images/product6.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div>
+            <div class="item__product">
+              <a href=""><img src="./images/product7.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div>
+            <div class="item__product">
+              <a href=""><img src="./images/product8.jpg" alt="" /></a>
+              <div class="price__product">350.000 đ</div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="bannerBottom">
+        <div class="container">
+          <img src="./images/bannerBottom.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="shop-system">
+        <div class="title">
+          <h3><a href="">Hệ thống cửa hàng</a></h3>
+          <span><i class="far fa-circle"></i></span>
+        </div>
+        <div class="shop-map">
+          <img src="./images/shop-map.jpg" alt="" />
+          <a href="" class="link-shop"> Địa chỉ hệ thống cửa hàng</a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__top">
+            <div class="hotline">
+              <div class="title">Mua hàng trực tuyến</div>
+              <div class="phone">1900 633 501 -1</div>
+              <a href="" class="link">sale.online@totoshop.vn</a>
+            </div>
+            <div class="hotline">
+              <div class="title">Chăm sóc khách hàng</div>
+              <div class="phone">1900 633 501 -2</div>
+              <a href="" class="link">sale.online@totoshop.vn</a>
+            </div>
+            <ul class="listInfor">
+              <li class="itemInfor">
+                <h4 class="title">Thông tin</h4>
+                <ul>
+                  <li><a href="">Giới thiệu</a></li>
+                  <li><a href="">Liên hệ công ty</a></li>
+                  <li><a href="">Đối tác</a></li>
+                  <li><a href="">Tuyển dụng</a></li>
+                </ul>
+              </li>
+              <li class="itemInfor">
+                <h4 class="title">Chính sách</h4>
+                <ul>
+                  <li><a href="">Chính sách đổi hàng</a></li>
+                  <li><a href="">Chính sách bảo hành</a></li>
+                  <li><a href="">Chính sách bảo mật</a></li>
+                  <li><a href="">Chính sách hoàn tiền</a></li>
+                </ul>
+              </li>
+              <li class="itemInfor">
+                <h4 class="title">FAQ</h4>
+                <ul>
+                  <li><a href="">Thanh toán và vận chuyển</a></li>
+                  <li><a href="">Hướng dẫn chọn size</a></li>
+                  <li><a href="">Kiểm tra thông tin đơn hàng</a></li>
+                  <li><a href="">Câu hỏi thường gặp</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__mid">
+            <div class="email form">
+              <h4>Đăng ký nhận khuyến mãi TotoShop</h4>
+              <form action="">
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  required
+                  placeholder="Nhập vào email của bạn"
+                />
+                <button type="submit">GỬI</button>
+              </form>
+            </div>
+            <div class="sdt form">
+              <h4>Tra cứu đơn hàng của bạn</h4>
+              <form action="">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  required
+                  placeholder="Nhập SDT hoặc mã số đơn hàng"
+                />
+                <button type="submit">TÌM</button>
+              </form>
+            </div>
+            <div class="email-contact">
+              <p class="box-email">
+                <span>
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <a href="">GÓP Ý / THAN PHIỀN</a>
+              </p>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="coppyright">
+              <p>HỘ KINH DOANH TOTO</p>
+              <p>
+                <span
+                  >Địa chỉ:412 Lê Văn Sỹ. P14.Q3. TPHCM/ Điện thoại:
+                  0938803633/DKKD số: 41C8013053 cấp ngày 01/12/2010, nơi cấp
+                  UBND Quận 3</span
+                >
+              </p>
+            </div>
+            <div class="bct">
+              <a href="">
+                <img src="./images/bct.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="btn-scroll">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </div>
+    <script src="./js/1.js"></script>
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="./DB/Product.json"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./slick-1.8.1/slick/slick.min.js"
+    ></script>
+    
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+@media (max-width: 414px) {
+  .right .slide {
+    height: 215px;
+  }
+  .product .container .listmenu-small {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product .container .listmenu-small li.itemmenu {
+    border-right: none;
+    margin-bottom: 10px;
+  }
+  .product .container .listControl .sort span {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .right .slide {
+    height: 195px;
+  }
+}
+/*# sourceMappingURL=responsive-sanpham.css.map */

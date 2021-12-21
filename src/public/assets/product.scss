@@ -1,0 +1,54 @@
+@mixin flex($dicorection, $justify) {
+    display: flex;
+    flex-direction: $dicorection;
+    justify-content: $justify;
+}
+$color-hover: #1abc9c;
+
+.list__product{
+    @include flex(row, space-around);
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    .item__product{
+        width: 22%;
+        margin: .5rem;
+        transition: .3s ease-in-out;
+        margin-bottom: 1rem;
+        a{
+            width: 100%;
+            display: block;
+            overflow: hidden;
+            img{
+                width: 100%;
+                    transition: transform .3s ease-in-out;
+                    transform: scale(1);
+            }
+
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .name__product{
+            a{
+                text-align: center;
+                text-decoration: none;
+                color: #000;
+            }
+            &:hover{
+                a{
+                    color: $color-hover;
+                }
+            }
+        }
+        .price__product{
+            margin-top: 1rem;
+            text-align: center;
+            cursor: default;
+        }
+    }
+}
+

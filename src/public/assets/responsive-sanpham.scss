@@ -1,0 +1,29 @@
+@media(max-width: 1024px){
+
+}
+@media (max-width: 768px){}
+
+
+@media (max-width: 414px){
+    .right .slide {
+        height: 215px;
+    }
+
+    .product .container .listmenu-small {
+        flex-wrap: wrap;
+        li.itemmenu {
+            border-right: none;
+            margin-bottom: 10px;
+            
+        }
+    }
+    .product .container .listControl .sort span {
+        display: none;
+    }
+}
+
+@media(max-width: 375px){
+    .right .slide {
+        height: 195px;
+    }
+}
