@@ -91,21 +91,23 @@
         <p class="page__link"><a href="/home">Trang chủ </a>>&nbsp;Tài khoản</p>
       </header>
       <div class="formLogin">
-        <form action="" id="login-form">
+        <form action="/api/login" method="POST" id="login-form">
           <input
             type="text"
-            placeholder="Nhập email hoặc số điện thoại"
+            placeholder="Nhập email"
             required
             id="email"
+            name="email"
           />
           <input
             type="password"
             placeholder="Mật khẩu"
             required
             id="password"
+            name="password"
           />
           <div class="form__submit">
-            <button class="btn btn-info" id="btn-login">Đăng nhập</button>
+            <button class="btn btn-info" type="submit" id="btn-login">Đăng nhập</button>
           </div>
           <div class="form__divider"></div>
           <div class="form__link"><a href="/home">Về trang chủ</a></div>
@@ -113,110 +115,13 @@
           <div class="form__link"><a href="">Quên mật khẩu</a></div>
         </form>
       </div>
-      <footer class="footer">
-        <div class="container">
-          <div class="footer__top">
-            <div class="hotline">
-              <div class="title">Mua hàng trực tuyến</div>
-              <div class="phone">1900 633 501 -1</div>
-              <a href="" class="link">sale.online@totoshop.vn</a>
-            </div>
-            <div class="hotline">
-              <div class="title">Chăm sóc khách hàng</div>
-              <div class="phone">1900 633 501 -2</div>
-              <a href="" class="link">sale.online@totoshop.vn</a>
-            </div>
-            <ul class="listInfor">
-              <li class="itemInfor">
-                <h4 class="title">Thông tin</h4>
-                <ul>
-                  <li><a href="">Giới thiệu</a></li>
-                  <li><a href="">Liên hệ công ty</a></li>
-                  <li><a href="">Đối tác</a></li>
-                  <li><a href="">Tuyển dụng</a></li>
-                </ul>
-              </li>
-              <li class="itemInfor">
-                <h4 class="title">Chính sách</h4>
-                <ul>
-                  <li><a href="">Chính sách đổi hàng</a></li>
-                  <li><a href="">Chính sách bảo hành</a></li>
-                  <li><a href="">Chính sách bảo mật</a></li>
-                  <li><a href="">Chính sách hoàn tiền</a></li>
-                </ul>
-              </li>
-              <li class="itemInfor">
-                <h4 class="title">FAQ</h4>
-                <ul>
-                  <li><a href="">Thanh toán và vận chuyển</a></li>
-                  <li><a href="">Hướng dẫn chọn size</a></li>
-                  <li><a href="">Kiểm tra thông tin đơn hàng</a></li>
-                  <li><a href="">Câu hỏi thường gặp</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__mid">
-            <div class="email form">
-              <h4>Đăng ký nhận khuyến mãi TotoShop</h4>
-              <form action="">
-                <input
-                  type="email"
-                  name=""
-                  id=""
-                  required
-                  placeholder="Nhập vào email của bạn"
-                />
-                <button type="submit">GỬI</button>
-              </form>
-            </div>
-            <div class="sdt form">
-              <h4>Tra cứu đơn hàng của bạn</h4>
-              <form action="">
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  required
-                  placeholder="Nhập SDT hoặc mã số đơn hàng"
-                />
-                <button type="submit">TÌM</button>
-              </form>
-            </div>
-            <div class="email-contact">
-              <p class="box-email">
-                <span>
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <a href="">GÓP Ý / THAN PHIỀN</a>
-              </p>
-            </div>
-          </div>
-          <div class="footer__bottom">
-            <div class="coppyright">
-              <p>HỘ KINH DOANH TOTO</p>
-              <p>
-                <span
-                  >Địa chỉ:412 Lê Văn Sỹ. P14.Q3. TPHCM/ Điện thoại:
-                  0938803633/DKKD số: 41C8013053 cấp ngày 01/12/2010, nơi cấp
-                  UBND Quận 3</span
-                >
-              </p>
-            </div>
-            <div class="bct">
-              <a href="">
-                <img src="./images/bct.png" alt="" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <%- include('./partials/footer.ejs') -%>
     </div>
     <div class="btn-scroll">
       <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
     <script src="./js/1.js"></script>
-    <script src="./js/login.js"></script>
+    <!-- <script src="./js/login.js"></script> -->
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script
       type="text/javascript"
